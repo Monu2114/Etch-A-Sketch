@@ -31,7 +31,7 @@ container.addEventListener('mouseover', function(e) {
     else
     {
 
-    e.target.style.backgroundColor = 'black';
+    e.target.style.backgroundColor = `rgb(${Math.random() * 255}, ${Math.random() * 255}, ${Math.random() * 255})`;
     e.target.style.opacity=0.1+k*0.1;
     k++;
 }
